@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tradeavo.com/sitemap.xml
+# Prioritize important content
+Allow: /index.html
+Allow: /faq.html
+Allow: /blog.html
+
+
+# Sitemap location (IMPORTANT: match your real domain version)
+Sitemap: https://www.tradeavo.com/sitemap.xml
